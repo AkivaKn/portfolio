@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-snap-type: y proximity;
+}
+
+header{
+    height: 9vh;
+    width: 99vw;
+    text-align: end;
+    display: flex;
+    justify-content: end;
+    position: fixed;
+}
+
+#nav-bar{
+    width: fit-content;
+    padding-top: 15px;
+}
+
+#nav-bar a{
+    all: unset;
+    margin:0 12px ;
+}
+
+#home,#about,#projects{
+    scroll-snap-align: start;
+    height: 100vh;
+    width: 99vw;
+    border: solid;
+}
