@@ -34,6 +34,10 @@ header {
     padding-left: 20px;
 }
 
+#contact a{
+  all: unset;
+}
+
 #nav-bar {
   width: fit-content;
   padding-right: 20px;
