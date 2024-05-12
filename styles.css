@@ -116,6 +116,7 @@ header {
   all: unset;
   font-size: 1.1rem;
   font-weight: bolder;
+  cursor: pointer;
 }
 
 @media screen and (min-width: 600px) {
