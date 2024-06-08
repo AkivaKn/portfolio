@@ -88,7 +88,7 @@ header {
 .project-card {
   text-align: center;
   width: 70vw;
-  min-height: 450px;
+  min-height: 550px;
   margin: 20px;
   padding: 1rem;
   display: grid;
